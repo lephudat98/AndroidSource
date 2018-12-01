@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foody App"
+        android:textSize="40sp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold|italic"
+        android:textColor="#f1bf8d"
+        android:layout_marginTop="10dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_margin="10dp"
+        android:id="@+id/edtUsername"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"
+        android:id="@+id/edtPassword"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSignin"
+            android:text="Sign In"
+            android:textSize="24sp"
+            android:layout_margin="5dp"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:id="@+id/btnSignup"
+            android:text="Sign up"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtGuest"
+        android:text="Sign in as guest"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:textColor="#0d6ff9"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:src="@drawable/food_logo" />
+</LinearLayout>

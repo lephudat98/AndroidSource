@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/picStore1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Store's name"
+            android:textSize="18sp"
+            android:id="@+id/txtStore"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="#0026ff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="status"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:id="@+id/txtStatus"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store's Address"
+        android:textSize="18sp"
+        android:id="@+id/txtAddress"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store's Menu"
+        android:textSize="18sp"
+        android:id="@+id/txtMenu"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"/>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:id="@+id/imgCal"/>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:id="@+id/imgFind"
+            android:layout_marginLeft="90dp"/>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:id="@+id/imgReserve"
+            android:layout_marginLeft="90dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Likes: "
+            android:textSize="16sp"
+            android:layout_marginLeft="45dp"
+            android:id="@+id/btnLikes"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="18sp"
+            android:id="@+id/txtLikes"
+            android:layout_marginLeft="5dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:text="Dislikes: "
+            android:textSize="16sp"
+            android:id="@+id/btnDislikes"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="18sp"
+            android:id="@+id/txtDislikes"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/picStore2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Comments"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnShowComments"/>
+</LinearLayout>
